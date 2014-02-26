@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <title>Flappy Branco Fatec</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <meta name="author" content="Adam Macias" />
+      <meta name="description" content="Flappy Branco (Fatec) é um remake do popular jogo flappy bird, redesenhado com o Branco, famoso gato que circula pelos corredores da Fatec Baixada Santista Rubens Lara" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+      <!-- Open Graph tags -->
+      <meta property="og:title" content="Flappy Branco" />
+      <meta property="og:description" content="Flappy Branco (Fatec) é um remake do popular jogo flappy bird, redesenhado com o Branco, famoso gato que circula pelos corredores da Fatec Baixada Santista Rubens Lara" />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="http://adammacias.github.io/flappy-branco/assets/thumb.png" />
+      <meta property="og:url" content="http://adammacias.github.io/flappy-branco/" />
+      <meta property="og:site_name" content="Flappy Branco" />
+      
+      <!-- Style sheets -->
+      <link href="css/reset.css" rel="stylesheet">
+      <link href="css/main.css" rel="stylesheet">
+   </head>
+   <body>
+      <div id="gamecontainer">
+         <div id="gamescreen">
+            <div id="sky" class="animated">
+               <div id="flyarea">
+                  <div id="ceiling" class="animated"></div>
+                  <!-- This is the flying and pipe area container -->
+                  <div id="player" class="bird animated"></div>
+                  
+                  <div id="bigscore"></div>
+                  
+                  <div id="splash"></div>
+                  
+                  <div id="scoreboard">
+                     <div id="medal"></div>
+                     <div id="currentscore"></div>
+                     <div id="highscore"></div>
+                     <div id="replay"><img src="assets/replay.png" alt="replay"></div>
+                  </div>
+                  
+                  <!-- Pipes go here! -->
+               </div>
+            </div>
+            <div id="land" class="animated"><div id="debug"></div></div>
+            <div id="land-fatec"></div>
+         </div>
+      </div>
+      <div id="footer">
+         <a href="http://www.dotgears.com/">Game original por dong nguyen</a>
+         <a href="http://adammacias.com.br">Game redesenhado por Adam Macias (Fatecano)</a>
+         <a href="http://github.com/adammacias/flappy-branco/">ver projeto no Github</a>
+      </div>
+      <div class="boundingbox" id="playerbox"></div>
+      <div class="boundingbox" id="pipebox"></div>
+      
+      <script src="js/jquery.min.js"></script>
+      <script src="js/jquery.transit.min.js"></script>
+      <script src="js/buzz.min.js"></script>
+      <script src="js/main.js"></script>
+   </body>
+</html>
