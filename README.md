@@ -5,7 +5,7 @@ Um remake do popular jogo "Flappy Bird" com o famoso Gato da Fatec Baixada Santi
 Jogar 
 ------------
 Clique no link abaixo e começe a jogar:  
-http://adammacias.github.io/flappybranco/
+http://adammacias.github.io/flappy-branco/
 
 
 Credits
