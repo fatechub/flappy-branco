@@ -13,4 +13,4 @@ Começe a jogar: http://fatechub.github.io/flappy-branco/
 ## Créditos
 **[@nguyen](https://github.com/aregowe)** criador do game original.
 
-**[@adammacias](https://github.com/adammacias)** (Fatecano) criador do redesign do Flappy Branco [website](https://www.adamamcias.com.br)
+**[@adammacias](https://github.com/adammacias)** redesign do Flappy Branco [website](http://www.adamamcias.com)
